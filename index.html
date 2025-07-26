@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eusan Mahatab</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Mobile Sidebar Navigation -->
+<button class="menu-btn" id="menuBtn">&#9776;</button>
+<div class="sidebar" id="sidebar">
+  <button class="close-btn" id="closeBtn">&times;</button>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Desktop Navigation -->
+<div class="desktop-navbar">
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="main-content d-flex align-items-center justify-content-center text-center text-white">
+    <div class="content-wrapper">
+      <h1 class="typewriter-text">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </h1>
+      <h3 class="sub-text">AN <span class="highlight">ASPIRING SOFTWARE ENGINEER</span></h3>
+      <a href="#contact" class="btn btn-custom mt-3">CONTACT ME</a>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/eusan-mahatab" target="_blank" class="icon-link">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/eusan-dev" target="_blank" class="icon-link">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-break" />
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-text">
+      <h2 class="about-heading">ABOUT ME</h2>
+      <p class="about-paragraph">
+        Hello there! My name is <span class="highlight">Eusan Mahatab</span> (You-sun Ma-ha-taab), and my pronouns are she/her.
+        I’m a <span class="highlight">New York–based</span> aspiring software engineer currently in my final year of college,
+        earning a <span class="highlight">Bachelor of Science in Computer Science</span>. I’m passionate about building meaningful,
+        user-centered digital experiences, with a strong interest in <span class="highlight">front-end development</span>,
+        UX design, and exploring how AI can enhance interactive web applications. Right now, I’m focused on expanding my
+        technical portfolio, contributing to open-source projects, and preparing for my next opportunity in tech.
+        Outside of coding, I enjoy design, storytelling, and solving real-world problems with creative solutions.
+      </p>
+      <a href="EusanCS25.pdf" download class="resume-button">download resume</a>
+    </div>
+    <div class="about-image">
+      <img src="Imgs/eusan.jpg" alt="Eusan Mahatab" />
+    </div>
+  </div>
+</section>
+
+<hr class="section-break" />
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <h2 class="skills-heading">SKILLS</h2>
+  <div class="brain-container">
+    <img src="Imgs/brain.png" alt="Brain" class="brain-image" id="brainImg" />
+    <div class="skill-tag" id="skill1">Java</div>
+    <div class="skill-tag" id="skill2">C++</div>
+    <div class="skill-tag" id="skill3">HTML+CSS</div>
+    <div class="skill-tag" id="skill4">JavaScript</div>
+  </div>
+</section>
+
+<hr class="section-break" />
+
+<!-- Education Section -->
+<section id="education" class="education-section">
+  <div class="education-container">
+    <div class="education-left">
+      <h2 class="section-heading">EDUCATION</h2>
+      <h3 class="edu-subtitle">B.S. in Computer Science</h3>
+      <p class="edu-details">Expected Graduation: May 2026</p>
+      <p class="edu-details">The City University of New York, Queens College</p>
+
+      <h3 class="classes-heading">Relevant Classes</h3>
+      <ul class="class-list">
+        <li>OOP in Java & C++</li>
+        <li>Data Structures</li>
+        <li>Design & Analysis of Algorithms</li>
+        <li>Software Engineering</li>
+        <li>Computer Architecture</li>
+      </ul>
+    </div>
+
+    <div class="education-right">
+      <h2 class="section-heading">CERTIFICATIONS</h2>
+    
+      <!-- CUNY Tech Prep Accordion -->
+      <div class="accordion-item cert">
+        <button class="accordion-toggle">CUNY Tech Prep – Software Engineering Fellow</button>
+        <div class="accordion-content">
+          <p class="edu-details">Current – May 2026</p>
+          <ul class="cert-list">
+            <li>TypeScript</li>
+            <li>React & Next.js</li>
+            <li>Vitest</li>
+            <li>Tailwind</li>
+            <li>AWS</li>
+            <li>Node.js</li>
+            <li>PostgreSQL + DynamoDB</li>
+          </ul>
+        </div>
+      </div>
+    
+      <!-- CodePath Accordion -->
+      <div class="accordion-item cert">
+        <button class="accordion-toggle">CodePath – Web Dev Fellow</button>
+        <div class="accordion-content">
+          <img src="Imgs/codepath.jpg" alt="CodePath Certificate" class="cert-image" />
+          <ul class="cert-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> <!-- close #education -->
+
+    
+
+<hr class="section-break" />
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2 class="section-heading">PROJECTS</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <div class="image-wrapper">
+        <img src="Imgs/huda.png" alt="Huda Project">
+        <div class="project-overlay">
+          <p>Sample influencer website to help drive their business needs</p>
+        </div>
+      </div>
+      <a href="https://github.com/eusan-dev/InfluencerWebsite.git" target="_blank" class="github-icon" title="View GitHub Repo">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <div class="image-wrapper">
+        <img src="Imgs/intern.png" alt="InternPing Project">
+        <div class="project-overlay">
+          <p>Images of internships that you can click decline or ping on it</p>
+        </div>
+      </div>
+      <a href="https://github.com/eusan-dev/InternPing01.git" target="_blank" class="github-icon" title="View GitHub Repo">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr class="section-break" />
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <h2 class="contact-heading">CONTACT ME</h2>
+
+  <div class="contact-icon" data-tooltip="mahatabeusancc@gmail.com">
+    <i class="bi bi-envelope"></i>
+  </div>
+  <div class="contact-icon" data-tooltip="347-479-8358">
+    <i class="bi bi-telephone"></i>
+  </div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <div class="contact-row">
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Phone Number" />
+    </div>
+    <textarea placeholder="Message" rows="5" required></textarea>
+    <button type="submit">SUBMIT</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <p>&copy; 2025 Eusan Mahatab. All rights reserved.</p>
+  <p>Designed & built with 💛 in New York.</p>
+</footer>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
